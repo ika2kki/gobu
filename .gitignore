@@ -1,0 +1,3 @@
+*.log
+config.toml
+__pycache__

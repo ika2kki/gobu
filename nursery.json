@@ -1,0 +1,13 @@
+{
+    "apps": [
+        {
+            "name": "gobu",
+            "cwd": "/home/nanika/coding/gobu/",
+            "script": "app.py",
+            "instances": 1,
+            "interpreter": "poetry",
+            "interpreter_args": ["run", "python", "-O"],
+            "autorestart": false
+        }
+    ]
+}

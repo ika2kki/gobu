@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "gobu"
+version = "1.1.1"
+description = ""
+authors = ["nanika"]
+readme = "README.md"
+packages = [{include = "gobu"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+discord = "^2.3.2"
+jishaku = "^2.5.1"
+typing-extensions = "^4.8.0"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.12.0"
+
+[tool.isort]
+combine_as_imports = true
+combine_star = true
+line_length = 75
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
